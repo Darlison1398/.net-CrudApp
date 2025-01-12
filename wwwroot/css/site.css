@@ -2,6 +2,14 @@ html {
   font-size: 14px;
 }
 
+p{
+  font-size: 14pt;
+}
+
+.navbar-collapse .navbar-nav .nav-item a{
+  font-size: 14pt;
+}
+
 
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -31,6 +39,18 @@ body {
 
 
 @media(max-width:768px) {
+
+  html{
+    font-size: 12pt;
+  }
+
+  p{
+    font-size: 12pt;
+  }
+
+  .navbar-collapse .navbar-nav .nav-item a{
+    font-size: 14pt;
+  }
 
   .row{
     width: 100%;

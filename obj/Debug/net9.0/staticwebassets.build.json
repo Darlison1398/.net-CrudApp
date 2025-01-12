@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yubGTOGdryru6dfWr1rF80XUAQRkn+kyYYZCeV5YRfs=",
+  "Hash": "z+oitrZKXE4qSsbqMpwzO+acOEXNjPYDdhiCtMrpM6k=",
   "Source": "CrudApp",
   "BasePath": "_content/CrudApp",
   "Mode": "Default",
@@ -416,12 +416,12 @@
       "OriginalItemSpec": "C:\\C# .Net\\CrudApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-lal235cljf.gz",
+      "Identity": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-1k2kpmg96o.gz",
       "SourceId": "CrudApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/CrudApp",
-      "RelativePath": "css/site#[.{fingerprint=lal235cljf}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=1k2kpmg96o}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -430,8 +430,8 @@
       "RelatedAsset": "C:\\C# .Net\\CrudApp\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ftjf8863m7",
-      "Integrity": "E1okem4e9I8xgRFI2w3eT5Zf0dy3kDFDfZKJzb5NORo=",
+      "Fingerprint": "hx1pim8onz",
+      "Integrity": "BcC6+OqPjdMoc3ziL6wehDKz/vXYzS6cylu8dlPRb5k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\C# .Net\\CrudApp\\wwwroot\\css\\site.css"
@@ -1417,8 +1417,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "lal235cljf",
-      "Integrity": "sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw=",
+      "Fingerprint": "1k2kpmg96o",
+      "Integrity": "D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -3324,13 +3324,13 @@
       ]
     },
     {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-lal235cljf.gz",
+      "Route": "css/site.1k2kpmg96o.css",
+      "AssetFile": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-1k2kpmg96o.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002267573696"
+          "Quality": "0.002028397566"
         }
       ],
       "ResponseHeaders": [
@@ -3340,19 +3340,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "440"
+          "Value": "492"
         },
         {
           "Name": "ETag",
-          "Value": "\"E1okem4e9I8xgRFI2w3eT5Zf0dy3kDFDfZKJzb5NORo=\""
+          "Value": "\"BcC6+OqPjdMoc3ziL6wehDKz/vXYzS6cylu8dlPRb5k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 18:57:10 GMT"
+          "Value": "Sun, 12 Jan 2025 21:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -3368,18 +3368,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw=\""
+          "Value": "W/\"D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "1k2kpmg96o"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw="
+          "Value": "sha256-D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI="
         }
       ]
     },
     {
-      "Route": "css/site.css",
+      "Route": "css/site.1k2kpmg96o.css",
       "AssetFile": "C:\\C# .Net\\CrudApp\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3389,7 +3397,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "986"
+          "Value": "1230"
         },
         {
           "Name": "Content-Type",
@@ -3397,121 +3405,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw=\""
+          "Value": "\"D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 18:57:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-lal235cljf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "440"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"E1okem4e9I8xgRFI2w3eT5Zf0dy3kDFDfZKJzb5NORo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 18:57:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-E1okem4e9I8xgRFI2w3eT5Zf0dy3kDFDfZKJzb5NORo="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.lal235cljf.css",
-      "AssetFile": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-lal235cljf.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002267573696"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "440"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"E1okem4e9I8xgRFI2w3eT5Zf0dy3kDFDfZKJzb5NORo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 18:57:10 GMT"
+          "Value": "Sun, 12 Jan 2025 21:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lal235cljf"
+          "Value": "1k2kpmg96o"
         },
         {
           "Name": "label",
@@ -3519,13 +3427,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw="
+          "Value": "sha256-D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI="
         }
       ]
     },
     {
-      "Route": "css/site.lal235cljf.css",
-      "AssetFile": "C:\\C# .Net\\CrudApp\\wwwroot\\css\\site.css",
+      "Route": "css/site.1k2kpmg96o.css.gz",
+      "AssetFile": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-1k2kpmg96o.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3534,7 +3442,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "986"
+          "Value": "492"
         },
         {
           "Name": "Content-Type",
@@ -3542,56 +3450,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw=\""
+          "Value": "\"BcC6+OqPjdMoc3ziL6wehDKz/vXYzS6cylu8dlPRb5k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 18:57:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "lal235cljf"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-sxAtx4JDSmLYO2Z3vGB7vYTYpnHx41+MGzUJ5JF0SYw="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.lal235cljf.css.gz",
-      "AssetFile": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-lal235cljf.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "440"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"E1okem4e9I8xgRFI2w3eT5Zf0dy3kDFDfZKJzb5NORo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 12 Jan 2025 18:57:10 GMT"
+          "Value": "Sun, 12 Jan 2025 21:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3609,7 +3472,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "lal235cljf"
+          "Value": "1k2kpmg96o"
         },
         {
           "Name": "label",
@@ -3617,7 +3480,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-E1okem4e9I8xgRFI2w3eT5Zf0dy3kDFDfZKJzb5NORo="
+          "Value": "sha256-BcC6+OqPjdMoc3ziL6wehDKz/vXYzS6cylu8dlPRb5k="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-1k2kpmg96o.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002028397566"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "492"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BcC6+OqPjdMoc3ziL6wehDKz/vXYzS6cylu8dlPRb5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 21:19:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\C# .Net\\CrudApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 21:19:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D6UPxoOZ9IvFb2Ms6xQG54Si70tlxmp30nPF1VTHEsI="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\C# .Net\\CrudApp\\obj\\Debug\\net9.0\\compressed\\90jqiiovvn-1k2kpmg96o.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "492"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BcC6+OqPjdMoc3ziL6wehDKz/vXYzS6cylu8dlPRb5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 21:19:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BcC6+OqPjdMoc3ziL6wehDKz/vXYzS6cylu8dlPRb5k="
         }
       ]
     },
