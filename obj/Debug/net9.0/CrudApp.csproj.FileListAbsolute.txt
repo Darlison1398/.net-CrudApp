@@ -244,3 +244,4 @@ C:\C# .Net\CrudApp\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\C# .Net\CrudApp\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\C# .Net\CrudApp\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\C# .Net\CrudApp\obj\Debug\net9.0\compressed\90jqiiovvn-lal235cljf.gz
+C:\C# .Net\CrudApp\obj\Debug\net9.0\CrudApp.sourcelink.json
