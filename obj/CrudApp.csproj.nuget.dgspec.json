@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C# .Net\\CrudApp\\CrudApp.csproj": {}
+    "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/CrudApp.csproj": {}
   },
   "projects": {
-    "C:\\C# .Net\\CrudApp\\CrudApp.csproj": {
+    "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/CrudApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C# .Net\\CrudApp\\CrudApp.csproj",
+        "projectUniqueName": "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/CrudApp.csproj",
         "projectName": "CrudApp",
-        "projectPath": "C:\\C# .Net\\CrudApp\\CrudApp.csproj",
-        "packagesPath": "C:\\Users\\Drsil\\.nuget\\packages\\",
-        "outputPath": "C:\\C# .Net\\CrudApp\\obj\\",
+        "projectPath": "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/CrudApp.csproj",
+        "packagesPath": "/home/darlison-silva/.nuget/packages/",
+        "outputPath": "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Drsil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/darlison-silva/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -78,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
