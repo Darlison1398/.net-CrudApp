@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/CrudApp.csproj": {}
+    "/var/www/crudapp/.net-CrudApp/CrudApp.csproj": {}
   },
   "projects": {
-    "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/CrudApp.csproj": {
+    "/var/www/crudapp/.net-CrudApp/CrudApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/CrudApp.csproj",
+        "projectUniqueName": "/var/www/crudapp/.net-CrudApp/CrudApp.csproj",
         "projectName": "CrudApp",
-        "projectPath": "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/CrudApp.csproj",
-        "packagesPath": "/home/darlison-silva/.nuget/packages/",
-        "outputPath": "/home/darlison-silva/Documentos/back-end/asp-net/.net-CrudApp/obj/",
+        "projectPath": "/var/www/crudapp/.net-CrudApp/CrudApp.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/var/www/crudapp/.net-CrudApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/darlison-silva/.nuget/NuGet/NuGet.Config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
