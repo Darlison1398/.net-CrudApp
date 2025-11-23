@@ -7,7 +7,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -15,32 +15,21 @@ jobs:
     - name: Setup SSH
       run: |
         mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_PRIVATE_KEY_TO_VPS }}" > ~/.ssh/key
-        chmod 600 ~/.ssh/key
+        echo "${{ secrets.SSH_PRIVATE_KEY_TO_VPS }}" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
         ssh-keyscan -H 145.223.94.102 >> ~/.ssh/known_hosts
 
     - name: Build & Publish
       run: dotnet publish -c Release -o publish
 
-    - name: Deploy application via SSH
+    - name: Deploy via rsync
       run: |
-        ssh -i ~/.ssh/key root@145.223.94.102 << 'EOF'
+        rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa" publish/ root@145.223.94.102:/var/www/crudapp/publish/
+
+    - name: Set permissions and restart service
+      run: |
+        ssh -i ~/.ssh/id_rsa root@145.223.94.102 << 'EOF'
           set -e
-          cd /var/www/crudapp/
-          rm -rf publish/*
-        EOF
-
-    - name: Copy files to VPS
-      uses: appleboy/scp-action@v1
-      with:
-        host: 145.223.94.102
-        username: root
-        key: ${{ secrets.SSH_PRIVATE_KEY_TO_VPS }}
-        source: "publish/*"
-        target: "/var/www/crudapp/publish"
-
-    - name: Restart app service
-      run: |
-        ssh -i ~/.ssh/key root@145.223.94.102 << 'EOF'
+          chown -R www-data:www-data /var/www/crudapp/publish
           systemctl restart crudapp
         EOF
