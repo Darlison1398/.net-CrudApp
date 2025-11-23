@@ -31,7 +31,7 @@ jobs:
         EOF
 
     - name: Copy files to VPS
-      uses: appleboy/scp-action@v0.1.8
+      uses: appleboy/scp-action@0.1.9
       with:
         host: 145.223.94.102
         username: root
