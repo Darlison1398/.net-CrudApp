@@ -30,6 +30,7 @@ namespace CrudApp.Controllers
             {
                 _context.Add(user);
                 await _context.SaveChangesAsync();
+                TempData["SuccessMessage"] = "Card criado com sucesso!";
                 return RedirectToAction(nameof(Index));
             }
             return View(user);
@@ -82,6 +83,7 @@ namespace CrudApp.Controllers
                         throw;
                     }
                 }
+                TempData["SuccessMessage"] = "Card editado com sucesso!";
                 return RedirectToAction(nameof(Index));
             }
             return View(user);
@@ -110,6 +112,7 @@ namespace CrudApp.Controllers
             var user = await _context.Users.FindAsync(id);
             _context.Users.Remove(user);
             await _context.SaveChangesAsync();
+            TempData["SuccessMessage"] = "Card deletado com sucesso!";
             return RedirectToAction(nameof(Index));
         }
 

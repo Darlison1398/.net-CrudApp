@@ -10,6 +10,8 @@
     </div>
 </div>
 
+@await Html.PartialAsync("_Messages")
+
 <div class="container">
     <div class="row">
         @foreach (var user in Model)
@@ -17,7 +19,7 @@
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">@user.Nome</h5>
+                        <h3 class="card-title"> <strong>@user.Nome</strong> </h3>
                         <p class="card-text"><strong>Idade:</strong> @user.Idade</p>
                         <p class="card-text"><strong>Mensagem:</strong> @user.Mensagem</p>
                         <div class="d-flex justify-content-between">
@@ -32,27 +34,3 @@
  </div>
 </div>
 
-<!--table class="table">
-    <thead>
-        <tr>
-            <th>Nome</th>
-            <th>Idade</th>
-            <th>Mensagem</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model)
-        {
-            <tr>
-                <td>@user.Nome</td>
-                <td>@user.Idade</td>
-                <td>@user.Mensagem</td>
-                <td>
-                    <a href="@Url.Action("Edit", new { id = user.Id })" class="btn btn-warning">Editar</a>
-                    <a href="@Url.Action("Delete", new { id = user.Id })" class="btn btn-danger">Deletar</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table-->
